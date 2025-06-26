@@ -1,0 +1,10 @@
+[package]
+name = "hello_rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+num ="0.4.1"
+twox-hash="2.1.0"
+backtrace="0.3.61"
+anyhow = "1"
