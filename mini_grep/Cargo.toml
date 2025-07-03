@@ -1,0 +1,9 @@
+[package]
+name = "mini_grep"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15"
+log = "0.4"         # log 是必须的，env_logger 依赖它
+env_logger = "0.11"

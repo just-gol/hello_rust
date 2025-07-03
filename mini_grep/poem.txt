@@ -1,0 +1,4 @@
+The rose is red
+The sky is blue
+Rust is great
+My love is true
