@@ -33,7 +33,7 @@ mini_grep/
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yourname/mini_grep.git
+git clone https://github.com/just-gol/hello_rust.git
 cd mini_grep
 ```
 
