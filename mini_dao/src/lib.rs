@@ -119,6 +119,8 @@ pub struct Statistics {
     // 提案id 投票记录
     pub counts: HashMap<u32, VoteRecord>,
     // 是否已经投过票
+    // 可以修改成:pub vote_counts: HashSet<(u32, u32)>
+    // 通过statistics.vote_counts.contains_key(&(number, self.id))判断是否重复投票
     pub vote_counts: HashMap<(u32, u32), bool>,
 }
 
