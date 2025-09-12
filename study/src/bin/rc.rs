@@ -9,7 +9,6 @@ fn main() {
 
     let a = Cons(2, Box::new(Cons(3, Box::new(Nil))));
     let b = Cons(1, Box::new(a));
-    let c = Cons(0, Box::new(a));
     println!("{:?}", b);
 }
 // #[derive(Debug)]
