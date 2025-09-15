@@ -1,10 +1,11 @@
 use std::{cell::RefCell, iter::Sum, rc::Rc};
 
 fn main() {
-    let a = String::from("value");
-    let b = a;
-    println!("{}", b);
-    println!("{}", a);
+    let a = 1;
+    match a {
+        1 => println!("one"),
+        _ => println!("other"),
+    }
 }
 
 struct Article {
